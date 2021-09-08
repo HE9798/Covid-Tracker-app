@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+h1 {
+    padding-left: 10rem;
+}
+
+h1:hover {
+    cursor: pointer;
+}
+
+h1 > span {
+    color: red;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding-right: 10rem;
+}
+
+li {
+    padding: 0 15px;
+}
+
+li:hover {
+    color: #fbc65a;
+    cursor: pointer;
+}
+
+
+@media (max-width: 770px) {
+    .container {
+        margin: 0;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    h1 {
+        padding: 0;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    li {
+        padding: 8px 0;
+    }
+}

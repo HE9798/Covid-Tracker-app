@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 5rem;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+}
+
+hr {
+    margin-bottom: 80px;
+    width: 20%;
+    border: 1px solid #fff;
+}
+
+@media (max-width: 770px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    hr {
+        width: 60%;
+    }
+}

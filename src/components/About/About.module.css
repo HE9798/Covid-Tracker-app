@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+}
+
+hr {
+    margin-bottom: 50px;
+    width: 20%;
+    border: 1px solid #fff;
+}
+
+p {
+    width: 80%;
+}
+
+.safe {
+    color: green;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+@media (max-width: 770px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 5rem 1rem;
+    }
+
+    p {
+        width: 100%;
+        line-height: 2rem;
+    }
+
+    hr {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+}

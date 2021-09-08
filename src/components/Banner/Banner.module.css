@@ -1,0 +1,28 @@
+.container {
+    width: 35%;
+    margin: 10rem;
+}
+
+.title{
+    font-size: 1.7rem;;
+}
+.title > h2 > span {
+    color: #fbc65a;
+}
+
+p {
+    letter-spacing: 1px;
+    line-height: 1.7rem;
+}
+
+
+@media (max-width: 770px) {
+    .container {
+        width: 80%;
+        margin: 6rem 2rem;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+}
